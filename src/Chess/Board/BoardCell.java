@@ -1,5 +1,7 @@
 package Chess.Board;
 
+import Chess.Figure.Figure;
+
 /**
  * Created with IntelliJ IDEA.
  * User: java
@@ -9,9 +11,12 @@ package Chess.Board;
  */
 public class BoardCell {
     public static enum CellColor {BLACK, WHITE};
-    public CellColor currentCellColor;
 
+    public CellColor currentCellColor;
     public byte CellPosition;
+    public Figure CellFigure;
+
+    public BoardCell(){}
 
     public BoardCell(byte position)
     {
@@ -21,5 +26,12 @@ public class BoardCell {
             this.currentCellColor = CellColor.WHITE;
 
         this.CellPosition = position;
+    }
+
+    public boolean isFree()
+    {
+        if (CellFigure == null)
+            return true;
+        return false;
     }
 }

@@ -1,5 +1,7 @@
 package Chess.Figure.FigureTypes;
 
+import Chess.Figure.Figure;
+
 /**
  * Created with IntelliJ IDEA.
  * User: java
@@ -7,5 +9,5 @@ package Chess.Figure.FigureTypes;
  * Time: 12:18
  * To change this template use File | Settings | File Templates.
  */
-public class King {
+public class King extends Figure {
 }
