@@ -15,12 +15,12 @@ public class Game extends IGame
 
     public boolean go()
     {
-        // TODO
+        // TO DO
         return false;
     }
 
     protected void draw()
     {
-        // TODO
+        // TO DO
     }
 }
