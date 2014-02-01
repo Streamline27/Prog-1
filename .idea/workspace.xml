@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f19235-8b49-4aab-97f2-fb3d038269e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Bishop.java" afterPath="$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Bishop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chess/Board/Board.java" afterPath="$PROJECT_DIR$/src/Chess/Board/Board.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chess/Board/BoardCell.java" afterPath="$PROJECT_DIR$/src/Chess/Board/BoardCell.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chess/Figure/FigureTypes/King.java" afterPath="$PROJECT_DIR$/src/Chess/Figure/FigureTypes/King.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Knight.java" afterPath="$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Knight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Pawn.java" afterPath="$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Pawn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Queen.java" afterPath="$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Queen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Rook.java" afterPath="$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Rook.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Prog.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1391250595379" ignored="false" />
+    <file path="/Dummy.txt" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1391252104711" ignored="false" />
     <file path="/README" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1391248884651" ignored="false" />
     <file path="/BoardCell.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1391251030013" ignored="false" />
     <file path="/Board.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1391251983730" ignored="false" />
@@ -404,7 +396,11 @@
       <created>1391250598774</created>
       <updated>1391250598774</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="FigureTypes">
+      <created>1391252115399</created>
+      <updated>1391252115399</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
