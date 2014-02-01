@@ -12,6 +12,7 @@ public class Game
 {
     public static int randInt(int min, int max)
     {
+        /* RANDOM! */
         Random rand = new Random();
         return rand.nextInt((max - min) + 1) + min;
     }
