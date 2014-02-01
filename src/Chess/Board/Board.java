@@ -14,6 +14,7 @@ public class Board {
     public static final byte CellCount = 64;
     public Figure[] WhiteFigures = new Figure[16];
     public Figure[] BlackFigures = new Figure[16];
+    public BoardCell[] BoardCells = new BoardCell[CellCount];
 
     public Board()
     {
@@ -40,6 +41,10 @@ public class Board {
             BlackFigures[counter] = new Knight();
         BlackFigures[15] = new King();
         BlackFigures[16] = new Queen();
+
+        // Making board
+        for (int i = 0; i < CellCount; ++i)
+            BoardCells[i] = new BoardCell((byte)i);
 
     }
 
