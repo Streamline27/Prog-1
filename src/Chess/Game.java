@@ -5,11 +5,22 @@ import Chess.Board.*;
 /**
  * Created by Cibulskis on 14.1.2.
  */
-public class Game
+public class Game extends IGame
 {
+    Board board;
     public Game()
     {
-        Board board = new Board();
+        this.board = new Board();
+    }
 
+    public boolean go()
+    {
+        // TODO
+        return false;
+    }
+
+    protected void draw()
+    {
+        // TODO
     }
 }
