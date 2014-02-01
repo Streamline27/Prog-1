@@ -152,7 +152,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -262,6 +261,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -521,7 +521,8 @@
       <updated>1391248011289</updated>
       <workItem from="1391273896666" duration="874000" />
       <workItem from="1391274800638" duration="105000" />
-      <workItem from="1391274917436" duration="4000" />
+      <workItem from="1391274917436" duration="22000" />
+      <workItem from="1391274949745" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1391248141818</created>
@@ -559,11 +560,15 @@
       <created>1391274899090</created>
       <updated>1391274899090</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="FigureTypes&#10;">
+      <created>1391274926315</created>
+      <updated>1391274926315</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="983000" />
+    <option name="totallyTimeSpent" value="1005000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -643,6 +648,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Chess/Board/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="20" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1248">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chess/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chess/Board/Board.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="20" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1248">
