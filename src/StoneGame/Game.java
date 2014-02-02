@@ -1,9 +1,11 @@
 package StoneGame;
 
+import TestFeatures.Constructors;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  * Created by Cibulskis on 14.1.2.
@@ -19,7 +21,7 @@ public class Game
 
     public static void main(String[] args) throws IOException
     {
-        BufferedReader input  = new BufferedReader(new InputStreamReader(System.in));
+        Scanner in = new Scanner(System.in);
 
         byte p1 = 3; int p1Guess; int p1Taken;
         byte p2 = 3; int p2Guess; int p2Taken; // p2 is CPU random
@@ -39,7 +41,7 @@ public class Game
 
             // Choosing count of available stones
             do
-                p1Taken = Integer.parseInt( input.readLine() );
+                p1Taken = in.nextInt();
             while(p1Taken > p1 || p1Taken < 0);
 
             p2Taken = Game.randInt(0, p2);
@@ -47,7 +49,7 @@ public class Game
             if (p1Turn)
             {
                 System.out.println(" Your guess is: ");
-                p1Guess = Integer.parseInt( input.readLine() );
+                p1Guess = in.nextInt();
 
                 // Taking
                 do
@@ -71,7 +73,7 @@ public class Game
 
                 // Blocking us from equal guess
                 do
-                    p1Guess = Integer.parseInt( input.readLine() );
+                    p1Guess = in.nextInt();
                 while(p1Guess == p2Guess);
             }
 
