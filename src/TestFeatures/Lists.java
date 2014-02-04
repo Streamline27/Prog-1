@@ -3,6 +3,7 @@ package TestFeatures;
 import java.util.ArrayList;
 
 /**
+ * Package ${PACKAGE_NAME} in ${PROJECT_NAME} project.
  * Created by Cibulskis on 14.2.2.
  */
 public class Lists
@@ -19,5 +20,6 @@ public class Lists
         {
             System.out.println(n);
         }
+
     }
 }
