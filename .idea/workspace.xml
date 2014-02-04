@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f19235-8b49-4aab-97f2-fb3d038269e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestFeatures/Lists.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestFeatures/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestFeatures/Constructors.java" afterPath="$PROJECT_DIR$/src/TestFeatures/Constructors.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StoneGame/Game.java" afterPath="$PROJECT_DIR$/src/StoneGame/Game.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestFeatures/ManyArgs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestFeatures/Main.java" afterPath="$PROJECT_DIR$/src/TestFeatures/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Prog.iws" />
@@ -70,21 +68,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Lists.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TestFeatures/Lists.java">
+      <file leaf-file-name="Constructors.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestFeatures/Constructors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="16" selection-start="336" selection-end="336" vertical-scroll-proportion="0.6528" vertical-offset="0" max-vertical-offset="696">
-              <folding>
-                <element signature="e#173#182#0" expanded="true" />
-              </folding>
+            <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="912">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Lists.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestFeatures/Lists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManyArgs.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestFeatures/ManyArgs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="34" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestFeatures/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="30" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="12" column="62" selection-start="314" selection-end="314" vertical-scroll-proportion="0.4608" vertical-offset="0" max-vertical-offset="625">
               <folding />
             </state>
           </provider>
@@ -126,8 +140,9 @@
         <option value="$PROJECT_DIR$/src/StoneGame/Main.java" />
         <option value="$PROJECT_DIR$/src/TestFeatures/Constructors.java" />
         <option value="$PROJECT_DIR$/src/StoneGame/Game.java" />
-        <option value="$PROJECT_DIR$/src/TestFeatures/Main.java" />
         <option value="$PROJECT_DIR$/src/TestFeatures/Lists.java" />
+        <option value="$PROJECT_DIR$/src/TestFeatures/ManyArgs.java" />
+        <option value="$PROJECT_DIR$/src/TestFeatures/Main.java" />
       </list>
     </option>
   </component>
@@ -553,7 +568,9 @@
       <workItem from="1391274917436" duration="22000" />
       <workItem from="1391274949745" duration="4995000" />
       <workItem from="1391282733266" duration="659000" />
-      <workItem from="1391326880504" duration="1217000" />
+      <workItem from="1391326880504" duration="2163000" />
+      <workItem from="1391330759777" duration="75000" />
+      <workItem from="1391532194749" duration="167000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1391248141818</created>
@@ -631,11 +648,19 @@
       <created>1391277820432</created>
       <updated>1391277820432</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Initial Commit&#10;">
+      <created>1391328127968</created>
+      <updated>1391328127968</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Initial Commit&#10;">
+      <created>1391532212620</created>
+      <updated>1391532212620</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7872000" />
+    <option name="totallyTimeSpent" value="9060000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -662,7 +687,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19438203" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19481982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -681,17 +706,17 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1629393" sideWeight="0.6702254" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26463965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26463965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
   </component>
@@ -719,6 +744,48 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Constructors.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFeatures/Lists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="744">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFeatures/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFeatures/Constructors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFeatures/Lists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="744">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFeatures/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFeatures/Constructors.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="27" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1104">
           <folding />
         </state>
@@ -730,13 +797,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/src/ArrFill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0" vertical-offset="573" max-vertical-offset="1296">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,13 +931,6 @@
         <state line="2" column="0" selection-start="70" selection-end="117" vertical-scroll-proportion="0.08465608" vertical-offset="0" max-vertical-offset="567" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/src/ArrFill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1156" selection-end="1156" vertical-scroll-proportion="1.02213" vertical-offset="413" max-vertical-offset="1296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StoneGame/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="5" selection-start="315" selection-end="315" vertical-scroll-proportion="0.424" vertical-offset="95" max-vertical-offset="2712">
@@ -889,24 +942,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Constructors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.384" vertical-offset="0" max-vertical-offset="912">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestFeatures/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Lists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="336" selection-end="336" vertical-scroll-proportion="0.6528" vertical-offset="0" max-vertical-offset="696">
-          <folding>
-            <element signature="e#173#182#0" expanded="true" />
-          </folding>
+        <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFeatures/ManyArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFeatures/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="62" selection-start="314" selection-end="314" vertical-scroll-proportion="0.4608" vertical-offset="0" max-vertical-offset="625">
+          <folding />
         </state>
       </provider>
     </entry>
