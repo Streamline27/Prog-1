@@ -10,6 +10,6 @@ public class Main
 //        Constructors c = new Constructors();
 //        System.out.println(c.i);
 //        Lists.TestArrayList(10);
-        ManyArgs.getStrings("qwerty", "zxcvbnm", "asdfghjkl");
+        ManyArgs.getIntAndStrings(10, "qwerty", "zxcvbnm", "asdfghjkl");
     }
 }

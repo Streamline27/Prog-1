@@ -13,4 +13,13 @@ public class ManyArgs
             System.out.println(s);
         }
     }
+
+    public static void getIntAndStrings(int i, String... text)
+    {
+        System.out.println(i);
+        for(String s:text)
+        {
+            System.out.println(s);
+        }
+    }
 }
