@@ -28,5 +28,10 @@ public class Constructors
         // System.out.println(i);
     }
 
+    public Constructors(String msg)
+    {
+        System.out.println(msg);
+    }
+
 }
 
