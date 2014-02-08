@@ -11,6 +11,10 @@ import Chess.Figure.Figure;
  */
 // Peshka
 public class Pawn extends Figure {
+    Pawn(byte X, byte Y) {
+        super(X, Y);
+    }
+
     @Override
     public void move() {
         //To change body of implemented methods use File | Settings | File Templates.

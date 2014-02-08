@@ -7,7 +7,7 @@ package Chess.Figure;
  * Time: 12:15
  * To change this template use File | Settings | File Templates.
  */
-public abstract class Figure implements Movable {
+abstract class Figure implements Movable {
     private byte X;
     private byte Y;
 
@@ -15,6 +15,5 @@ public abstract class Figure implements Movable {
     {
         this.X = X;
         this.Y = Y;
-
     }
 }
