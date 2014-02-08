@@ -5,7 +5,7 @@ import Chess.Board.*;
 /**
  * Created by Cibulskis on 14.1.2.
  */
-public class Game extends IGame
+public class Game
 {
     Board board;
     public Game()
@@ -15,12 +15,12 @@ public class Game extends IGame
 
     public boolean go()
     {
-        // TO DO
+        // TODO
         return false;
     }
 
     protected void draw()
     {
-        // TO DO
+        // TODO
     }
 }

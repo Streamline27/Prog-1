@@ -10,4 +10,8 @@ import Chess.Figure.Figure;
  * To change this template use File | Settings | File Templates.
  */
 public class King extends Figure {
+    @Override
+    public void move() {
+        //To change body of implemented methods use File | Settings | File Templates.
+    }
 }
