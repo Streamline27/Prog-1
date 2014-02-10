@@ -31,7 +31,7 @@ public class Board {
 //      Fill Pawns
         for (int i = 0; i < 8; i++)
         {
-            WhiteFigures[i] = new Pawn();
+            // WhiteFigures[i] = new Pawn();
         }
 
 
