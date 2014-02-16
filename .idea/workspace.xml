@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f19235-8b49-4aab-97f2-fb3d038269e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestFeatures/GUI/SwingGui.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chess/Board/Board.java" afterPath="$PROJECT_DIR$/src/Chess/Board/Board.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chess/Figure/Figure.java" afterPath="$PROJECT_DIR$/src/Chess/Figure/Figure.java" />
+      <change type="DELETED" beforePath="E:\Projects\JAVA\Prog\src\Chess\Board\Board.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Projects\JAVA\Prog\src\Chess\Board\BoardCell.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Projects\JAVA\Prog\src\Chess\Figure\Figure.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Projects\JAVA\Prog\src\Chess\Figure\FigureTypes\Bishop.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Projects\JAVA\Prog\src\Chess\Figure\FigureTypes\King.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Projects\JAVA\Prog\src\Chess\Figure\FigureTypes\Knight.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Projects\JAVA\Prog\src\Chess\Figure\FigureTypes\Pawn.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Projects\JAVA\Prog\src\Chess\Figure\FigureTypes\Queen.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Projects\JAVA\Prog\src\Chess\Figure\FigureTypes\Rook.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Projects\JAVA\Prog\src\Chess\Figure\Movable.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Projects\JAVA\Prog\src\Chess\Game.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Projects\JAVA\Prog\src\Chess\Main.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Prog.iws" />
@@ -72,48 +81,10 @@
       <file leaf-file-name="SwingGui.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestFeatures/GUI/SwingGui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="50" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.7264" vertical-offset="1106" max-vertical-offset="1824">
+            <state line="17" column="24" selection-start="456" selection-end="456" vertical-scroll-proportion="0.43005952" vertical-offset="0" max-vertical-offset="1292">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#518#810#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoardCell.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chess/Board/BoardCell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="1848">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bishop.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Bishop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="10" selection-start="242" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="600">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Figure.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chess/Figure/Figure.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="21" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="624">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Board.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chess/Board/Board.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="3" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="172" max-vertical-offset="1032">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -164,10 +135,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1064" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -219,7 +190,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -293,96 +263,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Figure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Figure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FigureTypes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Board" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -717,6 +600,7 @@
       <workItem from="1391951777335" duration="70000" />
       <workItem from="1391968767204" duration="27000" />
       <workItem from="1392043726137" duration="3003000" />
+      <workItem from="1392565003915" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1391248141818</created>
@@ -822,7 +706,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14193000" />
+    <option name="totallyTimeSpent" value="14497000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -845,69 +729,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1064" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19438203" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26404494" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280899" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1629393" sideWeight="0.6702254" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26463965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19438203" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26404494" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2637131" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280899" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1629393" sideWeight="0.6702254" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26463965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12708333" sideWeight="0.6702254" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2637131" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
+    <option name="RECENTLY_FILTERED_USERS">
       <collection />
     </option>
   </component>
@@ -935,121 +790,87 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/ManyArgs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="9" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="744">
-          <folding />
-        </state>
+        <state line="22" column="9" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="744" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="504">
-          <folding />
-        </state>
+        <state line="12" column="38" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="504" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Constructors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
-          <folding />
-        </state>
+        <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Lists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="744">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="744" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/ManyArgs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="9" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="744">
-          <folding />
-        </state>
+        <state line="22" column="9" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="744" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="504">
-          <folding />
-        </state>
+        <state line="12" column="38" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="504" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Constructors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
-          <folding />
-        </state>
+        <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Lists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="744">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="744" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/ManyArgs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="528">
-          <folding />
-        </state>
+        <state line="12" column="34" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="528" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="62" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="504">
-          <folding />
-        </state>
+        <state line="12" column="62" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="504" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Constructors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
-          <folding />
-        </state>
+        <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Lists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="744">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="744" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="11" column="30" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Constructors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="912">
-          <folding />
-        </state>
+        <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="912" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Lists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="744">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="744" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="11" column="30" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Constructors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1104">
-          <folding />
-        </state>
+        <state line="8" column="27" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1104" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StoneGame/Game.java">
@@ -1059,9 +880,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Constructors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="1104">
-          <folding />
-        </state>
+        <state line="8" column="27" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="1104" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StoneGame/Game.java">
@@ -1069,84 +888,9 @@
         <state line="74" column="43" selection-start="2292" selection-end="2292" vertical-scroll-proportion="0.0" vertical-offset="1776" max-vertical-offset="2592" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Board/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="20" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1248" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Board/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="20" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1248" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Board/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="20" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1248" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Board/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="888" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Board/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Board/BoardCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Pawn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="241" selection-end="241" vertical-scroll-proportion="0.3469388" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Queen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="241" selection-end="241" vertical-scroll-proportion="0.3469388" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Rook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="245" selection-end="245" vertical-scroll-proportion="0.3469388" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Knight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="244" selection-end="244" vertical-scroll-proportion="0.3469388" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Figure/FigureTypes/King.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="239" selection-end="245" vertical-scroll-proportion="0.3469388" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="37" selection-start="31" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="655" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Prog/StoneGame/Game.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="70" selection-end="117" vertical-scroll-proportion="0.08465608" vertical-offset="0" max-vertical-offset="567" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StoneGame/Game.java">
@@ -1156,102 +900,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Lists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="768" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504" />
+        <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="335" selection-end="365" vertical-scroll-proportion="0.36194897" vertical-offset="0" max-vertical-offset="862">
-          <folding />
-        </state>
+        <state line="13" column="38" selection-start="335" selection-end="365" vertical-scroll-proportion="0.36194897" vertical-offset="0" max-vertical-offset="862" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/ManyArgs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="9" selection-start="457" selection-end="457" vertical-scroll-proportion="0.612529" vertical-offset="0" max-vertical-offset="862">
-          <folding />
-        </state>
+        <state line="22" column="9" selection-start="457" selection-end="457" vertical-scroll-proportion="0.612529" vertical-offset="0" max-vertical-offset="862" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/ConstrTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="181" selection-end="181" vertical-scroll-proportion="0.25058004" vertical-offset="0" max-vertical-offset="862">
-          <folding />
-        </state>
+        <state line="9" column="5" selection-start="181" selection-end="181" vertical-scroll-proportion="0.25058004" vertical-offset="0" max-vertical-offset="862" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Constructors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="264" selection-end="264" vertical-scroll-proportion="0.22273782" vertical-offset="144" max-vertical-offset="1032">
-          <folding />
-        </state>
+        <state line="14" column="5" selection-start="264" selection-end="264" vertical-scroll-proportion="0.22273782" vertical-offset="144" max-vertical-offset="1032" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Override2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="120" selection-end="129" vertical-scroll-proportion="0.25396827" vertical-offset="0" max-vertical-offset="567">
-          <folding />
-        </state>
+        <state line="6" column="22" selection-start="120" selection-end="129" vertical-scroll-proportion="0.25396827" vertical-offset="0" max-vertical-offset="567" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/Override.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="153" selection-end="153" vertical-scroll-proportion="0.33862433" vertical-offset="0" max-vertical-offset="567">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Board/BoardCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="1848">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Figure/FigureTypes/Bishop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="242" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Figure/Figure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="624">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chess/Board/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="3" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="172" max-vertical-offset="1032">
-          <folding />
-        </state>
+        <state line="8" column="4" selection-start="153" selection-end="153" vertical-scroll-proportion="0.33862433" vertical-offset="0" max-vertical-offset="567" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFeatures/GUI/SwingGui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="50" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.7264" vertical-offset="1106" max-vertical-offset="1824">
+        <state line="17" column="24" selection-start="456" selection-end="456" vertical-scroll-proportion="0.43005952" vertical-offset="0" max-vertical-offset="1292">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#518#810#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
