@@ -7,7 +7,6 @@ import java.util.Random;
  */
 class AIPlayer extends Player
 {
-
     private static int randInt(int min, int max)
     {
         /* RANDOM! */
@@ -23,7 +22,8 @@ class AIPlayer extends Player
     @Override
     int makeTurn()
     {
-        return AIPlayer.randInt(Game.MIN_CHOICE, Game.MAX_CHOICE);
+        int number = AIPlayer.randInt(Game.MIN_CHOICE, Game.MAX_CHOICE);
+        return number;
     }
 
     @Override

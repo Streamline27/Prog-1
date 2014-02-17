@@ -6,7 +6,7 @@ package TwentyOneGameHome;
 abstract class Player {
 
     private int points;
-    private boolean stop;
+    private boolean stop = false;
 
     public int getPoints() {
         return points;
@@ -27,7 +27,6 @@ abstract class Player {
     public Player()
     {
         points = 0;
-        stop = false;
     }
 
     abstract int makeTurn();

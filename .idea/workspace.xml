@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f19235-8b49-4aab-97f2-fb3d038269e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TwentyOneGameHome/AIPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TwentyOneGameHome/Game.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TwentyOneGameHome/HumanPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TwentyOneGameHome/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TwentyOneGameHome/Player.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TwentyOneGameHome/AIPlayer.java" afterPath="$PROJECT_DIR$/src/TwentyOneGameHome/AIPlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TwentyOneGameHome/Game.java" afterPath="$PROJECT_DIR$/src/TwentyOneGameHome/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TwentyOneGameHome/HumanPlayer.java" afterPath="$PROJECT_DIR$/src/TwentyOneGameHome/HumanPlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TwentyOneGameHome/Main.java" afterPath="$PROJECT_DIR$/src/TwentyOneGameHome/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TwentyOneGameHome/Player.java" afterPath="$PROJECT_DIR$/src/TwentyOneGameHome/Player.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Prog.iws" />
@@ -72,55 +71,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TwentyOneGameHome/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Game.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TwentyOneGameHome/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="5" selection-start="436" selection-end="436" vertical-scroll-proportion="0.5911063" vertical-offset="211" max-vertical-offset="1269">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TwentyOneGameHome/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="21" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="185" max-vertical-offset="1107">
-              <folding>
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AIPlayer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TwentyOneGameHome/AIPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HumanPlayer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TwentyOneGameHome/HumanPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="22" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+            <state line="59" column="13" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-0.5625" vertical-offset="1971" max-vertical-offset="2781">
               <folding />
             </state>
           </provider>
@@ -168,11 +122,11 @@
         <option value="$PROJECT_DIR$/src/Chess/Figure/Figure.java" />
         <option value="$PROJECT_DIR$/src/Chess/Board/Board.java" />
         <option value="$PROJECT_DIR$/src/TestFeatures/GUI/SwingGui.java" />
+        <option value="$PROJECT_DIR$/src/TwentyOneGameHome/Player.java" />
         <option value="$PROJECT_DIR$/src/TwentyOneGameHome/Main.java" />
         <option value="$PROJECT_DIR$/src/TwentyOneGameHome/AIPlayer.java" />
-        <option value="$PROJECT_DIR$/src/TwentyOneGameHome/HumanPlayer.java" />
         <option value="$PROJECT_DIR$/src/TwentyOneGameHome/Game.java" />
-        <option value="$PROJECT_DIR$/src/TwentyOneGameHome/Player.java" />
+        <option value="$PROJECT_DIR$/src/TwentyOneGameHome/HumanPlayer.java" />
       </list>
     </option>
   </component>
@@ -325,7 +279,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
-  <component name="RunManager" selected="Application.SwingGui">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -356,6 +310,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="TestFeatures.GUI.SwingGui" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Prog" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="TwentyOneGameHome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="TwentyOneGameHome.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -581,14 +557,16 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.SwingGui" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.SwingGui" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SwingGui" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -643,7 +621,7 @@
       <workItem from="1392565003915" duration="642000" />
       <workItem from="1392573483846" duration="78000" />
       <workItem from="1392575246146" duration="54000" />
-      <workItem from="1392657035202" duration="1866000" />
+      <workItem from="1392657035202" duration="6037000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1391248141818</created>
@@ -749,11 +727,15 @@
       <created>1392565440414</created>
       <updated>1392565440414</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Initial Commit&#10;">
+      <created>1392660193905</created>
+      <updated>1392660193905</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16833000" />
+    <option name="totallyTimeSpent" value="21004000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -792,18 +774,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280899" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12708333" sideWeight="0.6702254" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2637131" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2637131" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -839,7 +821,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="11" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1224">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -848,7 +830,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="11" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1224">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -857,7 +839,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="11" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1224">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1013,51 +995,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="17" selection-start="924" selection-end="924" vertical-scroll-proportion="0.5802603" vertical-offset="302" max-vertical-offset="1944">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TwentyOneGameHome/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TwentyOneGameHome/AIPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TwentyOneGameHome/HumanPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="22" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1215">
+        <state line="24" column="72" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="1296">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TwentyOneGameHome/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="185" max-vertical-offset="1107">
+        <state line="31" column="12" selection-start="476" selection-end="484" vertical-scroll-proportion="1.0104166" vertical-offset="158" max-vertical-offset="1080">
           <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwentyOneGameHome/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="18" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwentyOneGameHome/HumanPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="31" selection-start="690" selection-end="690" vertical-scroll-proportion="0.72321427" vertical-offset="486" max-vertical-offset="1296">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TwentyOneGameHome/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="436" selection-end="436" vertical-scroll-proportion="0.5911063" vertical-offset="211" max-vertical-offset="1269">
+        <state line="59" column="13" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-0.5625" vertical-offset="1971" max-vertical-offset="2781">
           <folding />
         </state>
       </provider>

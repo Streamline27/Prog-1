@@ -24,13 +24,16 @@ class HumanPlayer extends Player {
         {
             number = in.nextInt();
         } while(number < Game.MIN_CHOICE || number > Game.MAX_CHOICE);
-
         return number;
     }
 
     @Override
     boolean offerStop()
     {
+        if (getPoints() < 12)
+            return false;
+
+        System.out.println("You have " + getPoints() + " points");
         System.out.println("Would you like to stop? (true/false)");
         boolean choice = in.nextBoolean();
         setStop(choice);
