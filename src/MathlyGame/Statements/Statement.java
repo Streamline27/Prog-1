@@ -32,14 +32,16 @@ public abstract class Statement
         return result;
     }
 
-    protected Statement()
-    {
-    }
-
     protected int randomNumber(int max)
     {
         Random r = new Random();
         return r.nextInt(max + 1);
+    }
+
+    protected int randomNumber(int min, int max)
+    {
+        Random r = new Random();
+        return r.nextInt((max - min) + 1) + min;
     }
 
     public abstract void showStatement();

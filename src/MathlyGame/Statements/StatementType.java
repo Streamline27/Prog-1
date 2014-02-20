@@ -5,6 +5,7 @@ package MathlyGame.Statements;
  */
 public enum StatementType
 {
+    SQRT(5),
     DIVIDE(4),
     MULTIPLY(3),
     MINUS(2),

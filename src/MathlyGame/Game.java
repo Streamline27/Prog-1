@@ -42,28 +42,11 @@ public class Game
     {
         do
         {
-            switch (randomNumber(1, 3))
-            {
-                case 1:
-                    s = new Plus();
-                    break;
-                case 2:
-                    s = new Minus();
-                    break;
-                case 3:
-                    s = new Multiply();
-                    break;
-                case 4:
-                    s = new Divide();
-                    break;
-                case 5:
-                    s = new Sqrt();
-                    break;
-                default:
-                    s = new Plus();
-                    break;
-            }
+            checkHardness();
 
+            newStatement();
+
+            System.out.println("Score: " + Az.getPoints());
             s.showStatement();
 
             if (Az.readAnswer() == s.getResult())
@@ -80,9 +63,37 @@ public class Game
         System.out.println("Your final score: " + Az.getPoints());
     }
 
+    private void checkHardness()
+    {
+        if (count == 15)
+            hardness = Level.MEDIUM;
+        else if(count == 30)
+            hardness = Level.HARD;
+    }
+
     public void newStatement()
     {
-
+        switch (randomNumber(1, 5))
+        {
+            case 1:
+                s = new Plus();
+                break;
+            case 2:
+                s = new Minus();
+                break;
+            case 3:
+                s = new Multiply();
+                break;
+            case 4:
+                s = new Divide();
+                break;
+            case 5:
+                s = new Sqrt();
+                break;
+            default:
+                s = new Plus();
+                break;
+        }
     }
 
 }

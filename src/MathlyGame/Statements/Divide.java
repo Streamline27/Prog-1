@@ -9,10 +9,14 @@ public class Divide extends Statement
 {
     public Divide()
     {
-        x = randomNumber(Game.getHardness().getMaxNumb());
-        y = randomNumber(Game.getHardness().getMaxNumb());
+        x = randomNumber(Game.getHardness().getMaxNumb() / 2);
+        y = randomNumber(1, Game.getHardness().getMaxNumb() / 2);
+
+        int resultM = x * y;
+
         score = Game.getHardness().getRatio() * StatementType.DIVIDE.getScore();
-        result = x / y;
+        result = resultM / y;
+        x = resultM;
     }
 
     @Override
