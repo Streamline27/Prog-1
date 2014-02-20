@@ -29,6 +29,7 @@ class Game {
         {
             play();
         } while(check());
+        turnInfo();
         gameInfo();
     }
 
@@ -84,14 +85,24 @@ class Game {
         {
             System.out.println("DRAW");
         }
-        else if (p1.getPoints() >= Game.GOAL
-                && p2.getPoints() <= Game.GOAL)
+        // If both of players FIRED UP
+        else if (p1.getPoints() > Game.GOAL
+                && p2.getPoints() > Game.GOAL)
         {
-
+            System.out.println("You both fired up");
+            System.out.println(" But " + (( p1.getPoints() > p2.getPoints()) ? "P2" : "P1") + " is closer to " + GOAL);
         }
-
-        System.out.println("");
-        clearScreen();
+        // If one of players FIRED UP
+        else if (p1.getPoints() > Game.GOAL
+                || p2.getPoints() > Game.GOAL)
+        {
+            System.out.println(((p1.getPoints() > Game.GOAL) ? "P2" : "P1") + " won this match.");
+        }
+        // If no one FIRED UP
+        else
+        {
+            System.out.println(((p1.getPoints() > p2.getPoints()) ? "P1" : "P2") + "won this match");
+        }
     }
 
 }

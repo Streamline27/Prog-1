@@ -26,6 +26,12 @@ class AIPlayer extends Player
         return number;
     }
 
+    int makeTurn(int enemyPoints)
+    {
+
+        return 5;
+    }
+
     @Override
     boolean offerStop()
     {
