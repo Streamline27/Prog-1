@@ -5,7 +5,7 @@ package MathlyGame;
  */
 public enum Level
 {
-    EASY(1, 20), MEDIUM(2, 100), HARD(3, 1000);
+    EASY(1, 10), MEDIUM(2, 50), HARD(3, 1000);
 
     private int ratio;
     private int maxNumb;
