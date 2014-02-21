@@ -59,7 +59,7 @@ public class Game
 
         } while(!gameOver);
 
-        System.out.println("Incorrect, correct answer was " + s.getResult());
+        System.out.println("LOOSER - The answer is " + s.getResult());
         System.out.println("Your final score: " + Az.getPoints());
     }
 
