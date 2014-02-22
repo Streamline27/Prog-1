@@ -1,7 +1,9 @@
 package MathlyGame;
 
 import MathlyGame.Statements.*;
+import SwingTesting.MyForm;
 
+import javax.swing.*;
 import java.util.Random;
 
 /**
@@ -17,6 +19,7 @@ public class Game
 
     private Player Az = new Player();
     private int count = 0;
+    private GameForm GameForm;
 
     private Statement s;
     private boolean gameOver = false;
@@ -38,8 +41,20 @@ public class Game
         this.hardness = h;
     }
 
+    public void initForm(){
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                GameForm = new GameForm();
+                GameForm.setVisible(true);
+            }
+        });
+    }
+
     public void go()
     {
+
+        initForm();
         do
         {
             checkHardness();

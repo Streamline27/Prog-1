@@ -28,7 +28,6 @@ public class Main {
             @Override
             public void run() {
                 MyForm ex = new MyForm();
-                ex = new MyForm();
                 ex.setVisible(true);
             }
         });

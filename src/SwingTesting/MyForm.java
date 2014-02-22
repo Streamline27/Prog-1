@@ -20,7 +20,7 @@ public class MyForm extends JFrame
         this.setSize(400, 200);
         this.setLocationRelativeTo(null);
         this.setTitle("MyForm");
-        this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
 
 
