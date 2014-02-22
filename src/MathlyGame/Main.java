@@ -12,7 +12,14 @@ public class Main
     public static void main(String[] args)
     {
 
-        Game g = new Game();
-        g.go();
+
+
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                GameForm TheGameForm = new GameForm();
+                TheGameForm.setVisible(true);
+            }
+        });
     }
 }

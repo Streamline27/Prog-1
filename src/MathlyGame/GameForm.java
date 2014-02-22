@@ -2,14 +2,20 @@ package MathlyGame;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
-public class GameForm extends JFrame {
+public class GameForm extends JFrame
+                      implements ActionListener{
 
     private JLabel scoreLabel, equalLabel, statementLabel;
-    private JPanel panelTop, panelDown;
+    private JPanel panelTop, panelDown, panelButtons;
     private JPanel panelLeft, panelMid, panelRight;
     private JTextField AnswerField;
+    private JButton BRestart, BAnswer;
+
+    private Game Game;
 
 
     public GameForm(){
@@ -20,8 +26,14 @@ public class GameForm extends JFrame {
         statementLabel.setText(statement);
     }
 
+    public void StartGame(){
+        Game = new Game();
+        Game.go();
+    }
+
     public final void initUI(){
-        this.setSize(400, 200);
+
+        this.setSize(185, 148);
         this.setLocationRelativeTo(null);
         this.setTitle("MyForm");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -55,16 +67,25 @@ public class GameForm extends JFrame {
         equalLabel = new JLabel("=");
         panelMid.add(equalLabel);
 
-         AnswerField = new JTextField(8);
+        AnswerField = new JTextField(8);
         panelRight.add(AnswerField);
 
+        panelButtons = new JPanel();
 
-
-
-
+        this.add(panelButtons);
+        BAnswer = new JButton();
+        BRestart = new JButton();
+        panelButtons.add(BAnswer);
+        panelButtons.add(BRestart);
+        BAnswer.setText("Answer");
+        BRestart.setText("Restart");
 
 
 
     }
 
+    @Override
+    public void actionPerformed(ActionEvent e) {
+
+    }
 }

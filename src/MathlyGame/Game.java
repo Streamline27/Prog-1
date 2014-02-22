@@ -41,20 +41,11 @@ public class Game
         this.hardness = h;
     }
 
-    public void initForm(){
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                GameForm = new GameForm();
-                GameForm.setVisible(true);
-            }
-        });
-    }
+
 
     public void go()
     {
 
-        initForm();
         do
         {
             checkHardness();
