@@ -44,5 +44,5 @@ public abstract class Statement
         return r.nextInt((max - min) + 1) + min;
     }
 
-    public abstract void showStatement();
+    public abstract String getStatement();
 }

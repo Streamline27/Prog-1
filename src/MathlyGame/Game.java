@@ -19,7 +19,6 @@ public class Game
 
     private Player Az = new Player();
     private int count = 0;
-    private GameForm GameForm;
 
     private Statement s;
     private boolean gameOver = false;
@@ -36,39 +35,6 @@ public class Game
         this.hardness = Level.EASY;
     }
 
-    public Game(Level h)
-    {
-        this.hardness = h;
-    }
-
-
-
-    public void go()
-    {
-
-        do
-        {
-            checkHardness();
-
-            newStatement();
-
-            System.out.println("Score: " + Az.getPoints());
-            s.showStatement();
-
-            if (Az.readAnswer() == s.getResult())
-            {
-                Az.setPoints( Az.getPoints() + s.getScore() );
-                ++count;
-            }
-            else
-                gameOver = true;
-
-        } while(!gameOver);
-
-        System.out.println("LOOSER - The answer is " + s.getResult());
-        System.out.println("Your final score: " + Az.getPoints());
-    }
-
     private void checkHardness()
     {
         if (count == 15)
@@ -77,7 +43,7 @@ public class Game
             hardness = Level.HARD;
     }
 
-    public void newStatement()
+    private void newStatement()
     {
         switch (randomNumber(1, 5))
         {
@@ -101,5 +67,50 @@ public class Game
                 break;
         }
     }
+//Interfeisnaya chast'
+    public Game(Level h)
+    {
+        this.hardness = h;
+    }
+
+    public String generateStatement(){
+        checkHardness();
+        newStatement();
+        return(s.getStatement());
+    }
+
+    public String getStatement(){
+        return(s.getStatement());
+    }
+
+
+    public boolean gameGoing(int Result){
+        if(Result==s.getResult())
+        {
+            Az.setPoints( Az.getPoints() + s.getScore() );
+            ++count;
+            return true;
+        }
+        else
+            return GameOver();
+    }
+
+    public int getScore(){
+        return Az.getPoints();
+    }
+
+    public int getCorrectAnswer(){
+        return s.getResult();
+    }
+
+
+    public boolean GameOver(){
+        gameOver=true;
+        return false;
+    }
+
+
+
+
 
 }

@@ -16,8 +16,8 @@ public class Sqrt extends Statement
     }
 
     @Override
-    public void showStatement()
+    public String getStatement()
     {
-        System.out.print("SQRT(" + getX() + ") = ");
+        return("SQRT(" + getX() + ")  ");
     }
 }

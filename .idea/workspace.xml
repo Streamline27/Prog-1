@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70f19235-8b49-4aab-97f2-fb3d038269e5" name="Default" comment="Merge branch 'master' of C:\Users\Vladislav\IdeaProjects\Progmeistars with conflicts.&#10;">
+    <list default="true" id="70f19235-8b49-4aab-97f2-fb3d038269e5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/Statements/Divide.java" afterPath="$PROJECT_DIR$/src/MathlyGame/Statements/Divide.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/Game.java" afterPath="$PROJECT_DIR$/src/MathlyGame/Game.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/GameForm.java" afterPath="$PROJECT_DIR$/src/MathlyGame/GameForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/Main.java" afterPath="$PROJECT_DIR$/src/MathlyGame/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/Statements/Minus.java" afterPath="$PROJECT_DIR$/src/MathlyGame/Statements/Minus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/Statements/Multiply.java" afterPath="$PROJECT_DIR$/src/MathlyGame/Statements/Multiply.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/Statements/Plus.java" afterPath="$PROJECT_DIR$/src/MathlyGame/Statements/Plus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/Statements/Sqrt.java" afterPath="$PROJECT_DIR$/src/MathlyGame/Statements/Sqrt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/Statements/Statement.java" afterPath="$PROJECT_DIR$/src/MathlyGame/Statements/Statement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Prog.iws" />
@@ -69,22 +74,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MathlyGame/Main.java">
+      <file leaf-file-name="Game.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MathlyGame/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="45" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-              <folding>
-                <element signature="e#220#415#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-              </folding>
+            <state line="74" column="0" selection-start="1458" selection-end="1458" vertical-scroll-proportion="-0.13677812" vertical-offset="1229" max-vertical-offset="1955">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MathlyGame/Game.java">
+      <file leaf-file-name="Plus.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Plus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="19" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="1768">
+            <state line="20" column="38" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Statement.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Statement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="5" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sqrt.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Sqrt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="37" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MathlyGame/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="14" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
@@ -99,46 +128,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Statement.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Statement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="918">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SwingTesting/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="748">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameForm.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameForm.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MathlyGame/GameForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.43161094" vertical-offset="379" max-vertical-offset="1598">
+            <state line="52" column="14" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="1824" max-vertical-offset="2482">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyForm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SwingTesting/MyForm.java">
+      <file leaf-file-name="Divide.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Divide.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="549" max-vertical-offset="1207">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Level.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MathlyGame/Level.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="14" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="595">
+            <state line="23" column="5" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -147,7 +149,16 @@
       <file leaf-file-name="Multiply.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Multiply.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="58" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="493">
+            <state line="20" column="40" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Minus.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Minus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="39" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -202,19 +213,19 @@
         <option value="$PROJECT_DIR$/src/MathlyGame/StatementType.java" />
         <option value="$PROJECT_DIR$/src/MathlyGame/Statement.java" />
         <option value="$PROJECT_DIR$/src/MathlyGame/Player.java" />
-        <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Minus.java" />
-        <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Plus.java" />
-        <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Statement.java" />
-        <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Divide.java" />
         <option value="$PROJECT_DIR$/src/MathlyGame/Statements/StatementType.java" />
-        <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Sqrt.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/MathlyGame/Level.java" />
-        <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Multiply.java" />
         <option value="$PROJECT_DIR$/src/SwingTesting/Main.java" />
         <option value="$PROJECT_DIR$/src/MathlyGame/Main.java" />
-        <option value="$PROJECT_DIR$/src/MathlyGame/Game.java" />
+        <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Statement.java" />
+        <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Sqrt.java" />
+        <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Plus.java" />
+        <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Multiply.java" />
+        <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Minus.java" />
+        <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Divide.java" />
         <option value="$PROJECT_DIR$/src/MathlyGame/GameForm.java" />
+        <option value="$PROJECT_DIR$/src/MathlyGame/Game.java" />
       </list>
     </option>
   </component>
@@ -252,6 +263,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,7 +310,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SwingTesting" />
+              <option name="myItemId" value="MathlyGame" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -319,10 +331,13 @@
               <option name="myItemId" value="MathlyGame" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Statements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -727,7 +742,8 @@
       <workItem from="1393008660166" duration="201000" />
       <workItem from="1393087073743" duration="255000" />
       <workItem from="1393088885269" duration="1462000" />
-      <workItem from="1393090399913" duration="3792000" />
+      <workItem from="1393090399913" duration="3855000" />
+      <workItem from="1393183144278" duration="7797000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1391248141818</created>
@@ -865,11 +881,15 @@
       <created>1393008715748</created>
       <updated>1393008715748</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Merge branch 'master' of C:\Users\Vladislav\IdeaProjects\Progmeistars with conflicts.&#10;">
+      <created>1393094486754</created>
+      <updated>1393094486754</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37423000" />
+    <option name="totallyTimeSpent" value="45283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -895,7 +915,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12619048" sideWeight="0.6702254" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25490198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25490198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -926,7 +946,8 @@
     <MESSAGE value="Multiply Game" />
     <MESSAGE value="Mathly  Game&#10;" />
     <MESSAGE value="Added FormTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added FormTest" />
+    <MESSAGE value="Merge branch 'master' of C:\Users\Vladislav\IdeaProjects\Progmeistars with conflicts.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of C:\Users\Vladislav\IdeaProjects\Progmeistars with conflicts.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1111,44 +1132,9 @@
         <state line="18" column="8" selection-start="374" selection-end="426" vertical-scroll-proportion="0.38069415" vertical-offset="0" max-vertical-offset="2916" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Minus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="56" selection-start="498" selection-end="498" vertical-scroll-proportion="0.5856833" vertical-offset="0" max-vertical-offset="922">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Divide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="331" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="891">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="28" selection-start="428" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="7" selection-start="60" selection-end="60" vertical-scroll-proportion="0.16594361" vertical-offset="0" max-vertical-offset="922" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Sqrt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="66" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="783">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Plus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="24" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MathlyGame/Level.java">
@@ -1158,16 +1144,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Multiply.java">
+    <entry file="file://$PROJECT_DIR$/../MathlyGame/MathlyGame/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="58" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="658" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Statement.java">
+    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+        <state line="20" column="45" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
@@ -1179,9 +1163,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MathlyGame/MathlyGame/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/SwingTesting/MyForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="658" />
+        <state line="9" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="14" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/StatementType.java">
@@ -1191,33 +1184,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Sqrt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="45" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding>
-            <element signature="e#220#415#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingTesting/MyForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+        <state line="20" column="37" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="19" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="1768">
+        <state line="22" column="5" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Plus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="38" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Multiply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="40" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Minus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="39" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Divide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MathlyGame/GameForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.43161094" vertical-offset="379" max-vertical-offset="1598">
+        <state line="52" column="14" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="1824" max-vertical-offset="2482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="0" selection-start="1458" selection-end="1458" vertical-scroll-proportion="-0.13677812" vertical-offset="1229" max-vertical-offset="1955">
           <folding />
         </state>
       </provider>

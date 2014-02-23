@@ -13,7 +13,7 @@ public class GameForm extends JFrame
     private JPanel panelTop, panelDown, panelButtons;
     private JPanel panelLeft, panelMid, panelRight;
     private JTextField AnswerField;
-    private JButton BRestart, BAnswer;
+    private JButton BRestart, BAnswer, BStart;
 
     private Game Game;
 
@@ -33,14 +33,12 @@ public class GameForm extends JFrame
 
     public final void initUI(){
 
-        this.setSize(185, 148);
+        this.setSize(215, 148);
         this.setLocationRelativeTo(null);
         this.setTitle("MyForm");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         //setResizable(false);
-
         this.setLayout(new BoxLayout(getContentPane(), BoxLayout.PAGE_AXIS));
-
         //Sozdaem paneli
         panelTop = new JPanel();
         panelDown = new JPanel();
@@ -48,20 +46,17 @@ public class GameForm extends JFrame
         panelMid = new JPanel();
         panelRight = new JPanel();
         //done
-
         //Razberaem Top Panel
         this.add(panelTop);
         scoreLabel = new JLabel("Score:");
         panelTop.add(scoreLabel);
         //done
-
         //Razbiraem Down Panel
         this.add(panelDown);
         panelDown.setLayout(new BoxLayout(panelDown, BoxLayout.LINE_AXIS));
         panelDown.add(panelLeft); panelDown.add(panelMid); panelDown.add(panelRight);
 
-        statementLabel = new JLabel("2+2");
-
+        statementLabel = new JLabel(":)");
         panelLeft.add(statementLabel);
 
         equalLabel = new JLabel("=");
@@ -70,22 +65,79 @@ public class GameForm extends JFrame
         AnswerField = new JTextField(8);
         panelRight.add(AnswerField);
 
+        //Razbiraem panel dla knopok
         panelButtons = new JPanel();
-
         this.add(panelButtons);
         BAnswer = new JButton();
         BRestart = new JButton();
+        BStart = new JButton();
         panelButtons.add(BAnswer);
         panelButtons.add(BRestart);
+        panelButtons.add(BStart);
+
         BAnswer.setText("Answer");
         BRestart.setText("Restart");
-
-
+        BAnswer.setVisible(false);
+        BRestart.setVisible(false);
+        BStart.setText("Start");
+        //done
+        //Nastraivaem slushatelji
+        BAnswer.addActionListener(this);
+        BRestart.addActionListener(this);
+        BStart.addActionListener(this);
+        BAnswer.setActionCommand("Answer");
+        BRestart.setActionCommand("Restart");
+        BStart.setActionCommand("Start");
+        Game = new Game();
 
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        if ("Start".equals(e.getActionCommand())){
+            DoStart();
+        }
+        if ("Answer".equals(e.getActionCommand())){
+            OnAnswer();
+        }
+        if ("Restart".equals(e.getActionCommand())){
+            NewGame();
+        }
+
+
+    }
+
+    private void OnAnswer(){
+        int result = Integer.parseInt(AnswerField.getText());
+        if (Game.gameGoing(result)){
+            scoreLabel.setText("Score: "+Game.getScore());
+            statementLabel.setText(Game.generateStatement());
+            AnswerField.setText("");
+        }
+        else
+        {
+            scoreLabel.setText("Final SCORE: "+Game.getScore());
+            statementLabel.setText("Anwer");
+            equalLabel.setText("is");
+            AnswerField.setText(""+Game.getCorrectAnswer());
+
+        }
+    }
+
+    private void NewGame(){
+        Game = new Game();
+        statementLabel.setText(Game.generateStatement());
+        scoreLabel.setText("SCORE:");
+        AnswerField.setText("");
+        equalLabel.setText("=");
+    }
+
+    private void DoStart() {
+        BStart.setVisible(false);
+        BAnswer.setVisible(true);
+        BRestart.setVisible(true);
+
+        statementLabel.setText(Game.generateStatement());
 
     }
 }

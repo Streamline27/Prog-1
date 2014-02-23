@@ -16,8 +16,8 @@ public class Multiply extends Statement
     }
 
     @Override
-    public void showStatement()
+    public String getStatement()
     {
-        System.out.print(getX() + " * " + getY() + " = ");
+        return(getX() + " * " + getY() );
     }
 }
