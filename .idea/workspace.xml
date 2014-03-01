@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f19235-8b49-4aab-97f2-fb3d038269e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/GameForm.java" afterPath="$PROJECT_DIR$/src/MathlyGame/GameForm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Prog.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1393670838756" ignored="false" />
+    <file path="/Dummy.txt" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1393671547818" ignored="false" />
     <file path="/Form.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1393066772248" ignored="false" />
     <file path="/fragment.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1393668379365" ignored="false" />
     <file path="/MyForm.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1393061631419" ignored="false" />
@@ -114,7 +113,7 @@
       <file leaf-file-name="GameForm.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MathlyGame/GameForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="71" selection-start="2748" selection-end="2748" vertical-scroll-proportion="0.3298611">
+            <state line="99" column="57" selection-start="3020" selection-end="3020" vertical-scroll-proportion="0.5069444">
               <folding />
             </state>
           </provider>
@@ -964,7 +963,11 @@
       <created>1393006471207</created>
       <updated>1393006471207</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Mathly  Game&#10;">
+      <created>1393671558695</created>
+      <updated>1393671558695</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1205,7 +1208,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MathlyGame/GameForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="71" selection-start="2748" selection-end="2748" vertical-scroll-proportion="0.3298611">
+        <state line="99" column="57" selection-start="3020" selection-end="3020" vertical-scroll-proportion="0.5069444">
           <folding />
         </state>
       </provider>
