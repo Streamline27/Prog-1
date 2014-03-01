@@ -4,10 +4,13 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 
 public class GameForm extends JFrame
-                      implements ActionListener{
+                      implements ActionListener
+{
 
     private JLabel scoreLabel, equalLabel, statementLabel;
     private JPanel panelTop, panelDown, panelButtons;
@@ -16,6 +19,16 @@ public class GameForm extends JFrame
     private JButton BRestart, BAnswer, BStart;
 
     private Game Game;
+
+    public class CloseListener extends WindowAdapter
+    {
+        @Override
+        public void windowClosing(WindowEvent e){
+            System.out.println("HEY");
+
+        }
+
+    }
 
 
     public GameForm(){
@@ -28,16 +41,17 @@ public class GameForm extends JFrame
 
     public void StartGame(){
         Game = new Game();
-        Game.go();
+         // Game.go();
     }
 
     public final void initUI(){
 
-        this.setSize(215, 148);
+        this.addWindowListener(new CloseListener());
+        this.setSize(430, 296);
         this.setLocationRelativeTo(null);
         this.setTitle("MyForm");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        //setResizable(false);
+        setResizable(false);
         this.setLayout(new BoxLayout(getContentPane(), BoxLayout.PAGE_AXIS));
         //Sozdaem paneli
         panelTop = new JPanel();
@@ -49,6 +63,7 @@ public class GameForm extends JFrame
         //Razberaem Top Panel
         this.add(panelTop);
         scoreLabel = new JLabel("Score:");
+        scoreLabel.setFont(new Font("sans-serif", Font.PLAIN, 40));
         panelTop.add(scoreLabel);
         //done
         //Razbiraem Down Panel
@@ -57,9 +72,11 @@ public class GameForm extends JFrame
         panelDown.add(panelLeft); panelDown.add(panelMid); panelDown.add(panelRight);
 
         statementLabel = new JLabel(":)");
+        statementLabel.setFont(new Font("sans-serif", Font.PLAIN, 40));
         panelLeft.add(statementLabel);
 
         equalLabel = new JLabel("=");
+        equalLabel.setFont(new Font("sans-serif", Font.PLAIN, 40));
         panelMid.add(equalLabel);
 
         AnswerField = new JTextField(8);
@@ -74,6 +91,10 @@ public class GameForm extends JFrame
         panelButtons.add(BAnswer);
         panelButtons.add(BRestart);
         panelButtons.add(BStart);
+        BAnswer.setFont(new Font("sans-serif", Font.PLAIN, 32));
+        BRestart.setFont(new Font("sans-serif", Font.PLAIN, 32));
+        BStart.setFont(new Font("sans-serif", Font.PLAIN, 32));
+        AnswerField.setFont(new Font("sans-serif", Font.PLAIN, 32));
 
         BAnswer.setText("Answer");
         BRestart.setText("Restart");
@@ -88,7 +109,9 @@ public class GameForm extends JFrame
         BAnswer.setActionCommand("Answer");
         BRestart.setActionCommand("Restart");
         BStart.setActionCommand("Start");
+        this.getRootPane().setDefaultButton(BStart);
         Game = new Game();
+
 
     }
 
@@ -108,31 +131,48 @@ public class GameForm extends JFrame
     }
 
     private void OnAnswer(){
-        int result = Integer.parseInt(AnswerField.getText());
-        if (Game.gameGoing(result)){
-            scoreLabel.setText("Score: "+Game.getScore());
-            statementLabel.setText(Game.generateStatement());
-            AnswerField.setText("");
-        }
-        else
+        try
         {
-            scoreLabel.setText("Final SCORE: "+Game.getScore());
-            statementLabel.setText("Anwer");
-            equalLabel.setText("is");
-            AnswerField.setText(""+Game.getCorrectAnswer());
+            int result = Integer.parseInt(AnswerField.getText());
+            if (Game.gameGoing(result))
+            {
+                scoreLabel.setText("Score: "+Game.getScore());
+                statementLabel.setText(Game.generateStatement());
+                AnswerField.setText("");
+            }
+            else
+            {
+                scoreLabel.setText("Final SCORE: "+Game.getScore());
+                statementLabel.setText("Anwer");
+                equalLabel.setText("is");
+                AnswerField.setText(""+Game.getCorrectAnswer());
+                BAnswer.setVisible(false);
+                this.getRootPane().setDefaultButton(BRestart);
+
+            }
+        }
+        catch(NumberFormatException e)
+        {
+            AnswerField.setText("");
 
         }
+
     }
 
     private void NewGame(){
         Game = new Game();
+        this.getRootPane().setDefaultButton(BAnswer);
         statementLabel.setText(Game.generateStatement());
+        BAnswer.setVisible(true);
+        AnswerField.setText("");
         scoreLabel.setText("SCORE:");
         AnswerField.setText("");
         equalLabel.setText("=");
     }
 
     private void DoStart() {
+        this.getRootPane().setDefaultButton(BAnswer);
+        AnswerField.setText("");
         BStart.setVisible(false);
         BAnswer.setVisible(true);
         BRestart.setVisible(true);
