@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f19235-8b49-4aab-97f2-fb3d038269e5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MathlyGame/GameTimer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/Game.java" afterPath="$PROJECT_DIR$/src/MathlyGame/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/GameForm.java" afterPath="$PROJECT_DIR$/src/MathlyGame/GameForm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/Player.java" afterPath="$PROJECT_DIR$/src/MathlyGame/Player.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Prog.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1393671547818" ignored="false" />
+    <file path="/Dummy.txt" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1394272006533" ignored="false" />
     <file path="/Form.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1393066772248" ignored="false" />
-    <file path="/fragment.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1393668379365" ignored="false" />
+    <file path="/fragment.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1394271962626" ignored="false" />
     <file path="/MyForm.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1393061631419" ignored="false" />
-    <file path="/Game.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1393062818427" ignored="false" />
-    <file path="/GameForm.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1393671521367" ignored="false" />
+    <file path="/Game.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1394272705425" ignored="false" />
+    <file path="/GameForm.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1394275978699" ignored="false" />
     <file path="/Multiply.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1393066798631" ignored="false" />
     <file path="/a.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1393670764928" ignored="false" />
+    <file path="/GameTimer.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1394276151223" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,38 +88,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MathlyGame/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="28" selection-start="428" selection-end="448" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MathlyGame/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="31" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0">
+            <state line="13" column="42" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Level.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MathlyGame/Level.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="14" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameForm.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameForm.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MathlyGame/GameForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="57" selection-start="3020" selection-end="3020" vertical-scroll-proportion="0.5069444">
+            <state line="143" column="27" selection-start="4151" selection-end="4151" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MathlyGame/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameTimer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MathlyGame/GameTimer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="41" selection-start="562" selection-end="562" vertical-scroll-proportion="-0.0034722222">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,9 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/MathlyGame/Player.java" />
-        <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Minus.java" />
-        <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Plus.java" />
         <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Statement.java" />
         <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Divide.java" />
         <option value="$PROJECT_DIR$/src/MathlyGame/Statements/StatementType.java" />
@@ -194,10 +198,13 @@
         <option value="$PROJECT_DIR$/src/SwingTesting/Main.java" />
         <option value="$PROJECT_DIR$/src/MathlyGame/Main.java" />
         <option value="$PROJECT_DIR$/src/MathlyGame/Form.java" />
-        <option value="$PROJECT_DIR$/src/MathlyGame/Game.java" />
         <option value="$PROJECT_DIR$/src/SwingTesting/MyForm.java" />
         <option value="$PROJECT_DIR$/src/MathlyGame/Statements/Multiply.java" />
+        <option value="$PROJECT_DIR$/src/MathlyGame/Statements/GameTimer.java" />
+        <option value="$PROJECT_DIR$/src/MathlyGame/Player.java" />
+        <option value="$PROJECT_DIR$/src/MathlyGame/Game.java" />
         <option value="$PROJECT_DIR$/src/MathlyGame/GameForm.java" />
+        <option value="$PROJECT_DIR$/src/MathlyGame/GameTimer.java" />
       </list>
     </option>
   </component>
@@ -967,7 +974,11 @@
       <created>1393671558695</created>
       <updated>1393671558695</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Mathly  Game&#10;">
+      <created>1393671579807</created>
+      <updated>1393671579807</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1105,20 +1116,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Minus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="56" selection-start="498" selection-end="498" vertical-scroll-proportion="0.5856833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Statements/Divide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="331" selection-end="403" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="7" selection-start="60" selection-end="60" vertical-scroll-proportion="0.16594361" />
@@ -1139,13 +1136,6 @@
     <entry file="file://$PROJECT_DIR$/src/SwingTesting/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="28" selection-start="428" selection-end="448" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1199,17 +1189,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_40/src.zip!/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="13" selection-start="3290" selection-end="3290" vertical-scroll-proportion="-7.9010415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MathlyGame/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MathlyGame/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="31" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0">
+        <state line="13" column="42" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MathlyGame/GameForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="57" selection-start="3020" selection-end="3020" vertical-scroll-proportion="0.5069444">
+        <state line="143" column="27" selection-start="4151" selection-end="4151" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MathlyGame/GameTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="41" selection-start="562" selection-end="562" vertical-scroll-proportion="-0.0034722222">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

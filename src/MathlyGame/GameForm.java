@@ -12,11 +12,12 @@ public class GameForm extends JFrame
                       implements ActionListener
 {
 
-    private JLabel scoreLabel, equalLabel, statementLabel;
+    private JLabel scoreLabel, equalLabel, statementLabel, TimeLabel;
     private JPanel panelTop, panelDown, panelButtons;
     private JPanel panelLeft, panelMid, panelRight;
     private JTextField AnswerField;
     private JButton BRestart, BAnswer, BStart;
+    private GameTimer Timer;
 
     private Game Game;
 
@@ -41,8 +42,11 @@ public class GameForm extends JFrame
 
     public void StartGame(){
         Game = new Game();
-         // Game.go();
+        Timer = new GameTimer(this);
+        Timer.setTime(20);
     }
+
+
 
     public final void initUI(){
 
@@ -65,6 +69,11 @@ public class GameForm extends JFrame
         scoreLabel = new JLabel("Score:");
         scoreLabel.setFont(new Font("sans-serif", Font.PLAIN, 40));
         panelTop.add(scoreLabel);
+
+        TimeLabel = new JLabel("Time:");
+        TimeLabel.setFont(new Font("sans-serif", Font.PLAIN, 30));
+        panelTop.add(TimeLabel);
+
         //done
         //Razbiraem Down Panel
         this.add(panelDown);
@@ -110,7 +119,7 @@ public class GameForm extends JFrame
         BRestart.setActionCommand("Restart");
         BStart.setActionCommand("Start");
         this.getRootPane().setDefaultButton(BStart);
-        Game = new Game();
+        StartGame();
 
 
     }
@@ -130,25 +139,46 @@ public class GameForm extends JFrame
 
     }
 
+    private void RightAnswer(){
+        Timer.addTime(6);
+        scoreLabel.setText("Score: "+Game.getScore());
+        statementLabel.setText(Game.generateStatement());
+        AnswerField.setText("");
+
+    }
+
+    private void WrongAnswer(){
+        scoreLabel.setText("Final SCORE: "+Game.getScore());
+        statementLabel.setText("Anwer");
+        equalLabel.setText("is");
+        AnswerField.setText(""+Game.getCorrectAnswer());
+        BAnswer.setVisible(false);
+        this.getRootPane().setDefaultButton(BRestart);
+    }
+
+
     private void OnAnswer(){
+
+
         try
         {
             int result = Integer.parseInt(AnswerField.getText());
-            if (Game.gameGoing(result))
-            {
-                scoreLabel.setText("Score: "+Game.getScore());
-                statementLabel.setText(Game.generateStatement());
-                AnswerField.setText("");
+
+            if (Timer.TimeGoing()){
+               if (Game.gameGoing(result))
+               {
+                   RightAnswer();
+               }
+               else
+               {
+                  WrongAnswer();
+
+                }
             }
             else
             {
-                scoreLabel.setText("Final SCORE: "+Game.getScore());
-                statementLabel.setText("Anwer");
-                equalLabel.setText("is");
-                AnswerField.setText(""+Game.getCorrectAnswer());
-                BAnswer.setVisible(false);
-                this.getRootPane().setDefaultButton(BRestart);
-
+                TimeLabel.setText("TimeIsOut");
+                WrongAnswer();
             }
         }
         catch(NumberFormatException e)
@@ -176,8 +206,11 @@ public class GameForm extends JFrame
         BStart.setVisible(false);
         BAnswer.setVisible(true);
         BRestart.setVisible(true);
-
         statementLabel.setText(Game.generateStatement());
 
+    }
+
+    public void setTimeLabel(int Time){
+        TimeLabel.setText("Time: "+Time);
     }
 }

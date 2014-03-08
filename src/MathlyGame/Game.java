@@ -11,6 +11,7 @@ import java.util.Random;
  */
 public class Game
 {
+
     private int randomNumber(int min, int max)
     {
         Random r = new Random();
