@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f19235-8b49-4aab-97f2-fb3d038269e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MathlyGame/GameTimer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/Game.java" afterPath="$PROJECT_DIR$/src/MathlyGame/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/GameForm.java" afterPath="$PROJECT_DIR$/src/MathlyGame/GameForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/Player.java" afterPath="$PROJECT_DIR$/src/MathlyGame/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathlyGame/GameTimer.java" afterPath="$PROJECT_DIR$/src/MathlyGame/GameTimer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Prog.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1394272006533" ignored="false" />
+    <file path="/Dummy.txt" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1394276333716" ignored="false" />
     <file path="/Form.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1393066772248" ignored="false" />
     <file path="/fragment.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1394271962626" ignored="false" />
     <file path="/MyForm.java" changelist="70f19235-8b49-4aab-97f2-fb3d038269e5" time="1393061631419" ignored="false" />
@@ -118,7 +115,7 @@
       <file leaf-file-name="GameTimer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MathlyGame/GameTimer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="41" selection-start="562" selection-end="562" vertical-scroll-proportion="-0.0034722222">
+            <state line="28" column="42" selection-start="567" selection-end="567" vertical-scroll-proportion="0.029513888">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -978,7 +975,11 @@
       <created>1393671579807</created>
       <updated>1393671579807</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Mathly  Game&#10;">
+      <created>1394276340145</created>
+      <updated>1394276340145</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1219,7 +1220,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MathlyGame/GameTimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="41" selection-start="562" selection-end="562" vertical-scroll-proportion="-0.0034722222">
+        <state line="28" column="42" selection-start="567" selection-end="567" vertical-scroll-proportion="0.029513888">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
