@@ -26,7 +26,7 @@ public class GameTimer {
         Time = newTime;
     }
 
-    public void addTime(int newTime){    1
+    public void addTime(int newTime){
         this.Time=+newTime;
     }
 
